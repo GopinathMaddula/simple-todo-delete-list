@@ -1,0 +1,31 @@
+/* Write your CSS here */
+.app-container {
+  background-color: #ffc2a0;
+  height: 100vh;
+  padding: 50px;
+  background-size: cover;
+}
+.card-container {
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  font-family: 'roboto';
+  font-size: 40px;
+  font-weight: bold;
+  color: #ff8542;
+  text-align: center;
+}
+
+.todo-item-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+}
